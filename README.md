@@ -4,7 +4,7 @@
 
 同时依靠 3xui 面板搭建节点，能够为少数人提供服务，便于管理。建议只想其他用户提供 reality 节点，更加稳定可靠，hysteria 目前在逐渐被管控，高峰期会出现断流等问题。
 
-更加详细的内容请参考：[年轻人的第一台-vps-代理服务器](https://www.hysling.top/blog/proxy/%E5%B9%B4%E8%BD%BB%E4%BA%BA%E7%9A%84%E7%AC%AC%E4%B8%80%E5%8F%B0-vps-%E4%BB%A3%E7%90%86%E6%9C%8D%E5%8A%A1%E5%99%A8/])
+更加详细的内容请参考：[年轻人的第一台-vps-代理服务器](https://www.hysling.top/blog/proxy/%E5%B9%B4%E8%BD%BB%E4%BA%BA%E7%9A%84%E7%AC%AC%E4%B8%80%E5%8F%B0-vps-%E4%BB%A3%E7%90%86%E6%9C%8D%E5%8A%A1%E5%99%A8/)
 
 本脚本采用模块化设计，build-all.sh 脚本将各个搭建功能模块化，通过 run.sh 脚本统一调用，建议先阅读上述博客，再来看 run.sh 的内容。通过本脚本，可以方便的搭建服务，但搭建过程中，仍然需要额外操作，比如在 cloudflare 中设置域名 dns，创建 api 令牌，购买域名等。
 
